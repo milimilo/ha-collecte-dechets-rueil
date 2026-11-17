@@ -19,7 +19,7 @@ chaque flux, puis calcule les prochaines dates.
 | Encombrants | `encombrant` | semaine paire / impaire |
 | Verre | `collecte-du-verre` | semaine paire / impaire |
 
-> [!NOTE]
+> [!IMPORTANT]
 > **Ordures ménagères indisponibles (depuis octobre 2026).** Le fournisseur
 > (open data des Hauts-de-Seine) publie actuellement le jeu de données
 > `collecte-des-ordures-menageres` **vide** (0 enregistrement), tout en le
