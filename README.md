@@ -14,10 +14,19 @@ chaque flux, puis calcule les prochaines dates.
 | Flux | Jeu de données | Particularité gérée |
 |------|----------------|---------------------|
 | Déchets verts | `collecte-des-dechets-vegetaux` | saison mars → mi-décembre |
-| Ordures ménagères | `collecte-des-ordures-menageres` | plusieurs jours/semaine |
+| Ordures ménagères ⚠️ | `collecte-des-ordures-menageres` | plusieurs jours/semaine |
 | Emballages | `collecte-des-emballages` | hebdomadaire |
 | Encombrants | `encombrant` | semaine paire / impaire |
 | Verre | `collecte-du-verre` | semaine paire / impaire |
+
+> [!WARNING]
+> **Ordures ménagères indisponibles (depuis octobre 2026).** Le fournisseur
+> (open data des Hauts-de-Seine) publie actuellement le jeu de données
+> `collecte-des-ordures-menageres` **vide** (0 enregistrement), tout en le
+> rafraîchissant chaque jour. Le capteur « Ordures ménagères » reste donc sans
+> valeur tant que la source ne republie pas de données. **Ce n'est pas un défaut
+> de l'intégration** : les 4 autres flux fonctionnent normalement, et le capteur
+> se remplira automatiquement dès le retour des données.
 
 ## Ce que ça crée
 
