@@ -19,14 +19,13 @@ chaque flux, puis calcule les prochaines dates.
 | Encombrants | `encombrant` | semaine paire / impaire |
 | Verre | `collecte-du-verre` | semaine paire / impaire |
 
-> [!WARNING]
+> [!NOTE]
 > **Ordures ménagères indisponibles (depuis octobre 2026).** Le fournisseur
 > (open data des Hauts-de-Seine) publie actuellement le jeu de données
 > `collecte-des-ordures-menageres` **vide** (0 enregistrement), tout en le
 > rafraîchissant chaque jour. Le capteur « Ordures ménagères » reste donc sans
-> valeur tant que la source ne republie pas de données. **Ce n'est pas un défaut
-> de l'intégration** : les 4 autres flux fonctionnent normalement, et le capteur
-> se remplira automatiquement dès le retour des données.
+> valeur tant que la source ne republie pas de données. Les 4 autres flux
+> fonctionnent normalement.
 
 ## Ce que ça crée
 
